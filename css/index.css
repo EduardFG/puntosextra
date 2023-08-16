@@ -35,6 +35,14 @@
     height: 400px;
     background-color: orange;
 }
+.father-third {
+    margin-top: 15px;
+}
+.fourth-div {
+    background-color: violet;
+    height: 300px;
+}
+
 /*CONFIGURATION FOR PHONE*/
 @media (min-width: 320px) and (max-width: 767px) {}
 /*CONFIGURATION FOR TABLET*/
