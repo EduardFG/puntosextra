@@ -1,0 +1,41 @@
+.container-fluid {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+[class*='col-'] {
+    padding: 0px;
+}
+
+.first {
+    background-color: skyblue;
+    height: 100px;
+}
+
+.father-second {
+    margin-top: 15px;
+}
+.second-div {
+    background-color: red;
+    height: 600px;
+    margin-right: 20px;
+}
+.third-div {
+    background-color: green;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.third-div-cont {
+    margin-top: 20px;
+    width: 31%;
+    height: 400px;
+    background-color: orange;
+}
+/*CONFIGURATION FOR PHONE*/
+@media (min-width: 320px) and (max-width: 767px) {}
+/*CONFIGURATION FOR TABLET*/
+@media (min-width: 768px) and (max-width: 991px) {}
